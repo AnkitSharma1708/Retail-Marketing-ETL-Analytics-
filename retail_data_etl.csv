@@ -1,0 +1,201 @@
+OrderID,Product,Category,Region,Customer,Quantity,UnitPrice,TotalPrice,OrderDate,PaymentMethod
+1,Monitor,Accessories,West,Michael Wilson,12,4603,55236,2025-01-18,Debit Card
+2,Tablet,Accessories,East,Emily Davis,4,1263,5052,2024-08-05,PayPal
+3,Monitor,Gadgets,West,Jane Smith,7,710,4970,2025-03-17,Credit Card
+4,Smartphone,Electronics,South,Robert Brown,17,2616,44472,2024-12-07,Net Banking
+5,Tablet,Electronics,South,Jane Smith,10,2496,24960,2024-08-10,UPI
+6,Monitor,Accessories,South,Emily Davis,16,2473,39568,2024-09-28,PayPal
+7,Tablet,Accessories,West,David Clark,14,2682,37548,2024-12-30,Cash on Delivery
+8,Monitor,Gadgets,South,Laura Johnson,8,53,424,2024-08-05,Cash on Delivery
+9,Printer,Gadgets,North,Emily Davis,6,1598,9588,2024-11-22,Credit Card
+10,Monitor,Home Office,West,Michael Wilson,20,3777,75540,2024-05-24,UPI
+11,Smartwatch,Electronics,East,Laura Johnson,5,898,4490,2024-11-25,Debit Card
+12,Tablet,Accessories,East,Michael Wilson,12,2015,24180,2025-04-11,Net Banking
+13,Camera,Home Office,North,Alice White,18,1154,20772,2024-06-16,PayPal
+14,Camera,Accessories,South,John Doe,4,4985,19940,2024-07-23,Credit Card
+15,Tablet,Gadgets,West,Laura Johnson,4,975,3900,2024-06-17,PayPal
+16,Smartwatch,Electronics,East,John Doe,1,4445,4445,2025-02-27,Debit Card
+17,Tablet,Accessories,South,Laura Johnson,10,2440,24400,2024-07-31,Debit Card
+18,Monitor,Electronics,South,John Doe,17,3617,61489,2025-03-30,Net Banking
+19,Printer,Electronics,South,Jane Smith,3,4567,13701,2024-08-17,PayPal
+20,Headphones,Electronics,East,Jane Smith,17,3843,65331,2025-04-25,UPI
+21,Smartwatch,Gadgets,East,Robert Brown,13,4342,56446,2025-02-13,Cash on Delivery
+22,Tablet,Electronics,North,John Doe,15,3053,45795,2024-06-12,Net Banking
+23,Printer,Electronics,East,David Clark,10,1493,14930,2024-06-17,UPI
+24,Tablet,Electronics,North,Emily Davis,17,4261,72437,2024-07-06,PayPal
+25,Monitor,Accessories,West,Laura Johnson,4,2144,8576,2025-01-21,Net Banking
+26,Smartphone,Electronics,North,Laura Johnson,4,1883,7532,2024-08-22,PayPal
+27,Laptop,Electronics,West,Robert Brown,7,1175,8225,2024-08-28,PayPal
+28,Printer,Accessories,East,Michael Wilson,15,1607,24105,2024-12-21,Net Banking
+29,Headphones,Electronics,South,David Clark,15,940,14100,2024-09-09,Cash on Delivery
+30,Headphones,Gadgets,North,Robert Brown,5,413,2065,2025-01-04,UPI
+31,Camera,Gadgets,North,Jane Smith,1,401,401,2024-09-01,Net Banking
+32,Printer,Home Office,North,Alice White,17,3973,67541,2024-11-04,UPI
+33,Tablet,Home Office,West,Alice White,14,4985,69790,2024-05-25,PayPal
+34,Smartphone,Electronics,East,Robert Brown,8,3096,24768,2025-01-10,UPI
+35,Smartphone,Home Office,West,Robert Brown,17,3844,65348,2024-07-02,Debit Card
+36,Camera,Home Office,South,Emily Davis,20,3251,65020,2025-01-20,Credit Card
+37,Smartwatch,Gadgets,East,John Doe,18,3248,58464,2025-01-29,PayPal
+38,Camera,Gadgets,South,Robert Brown,2,645,1290,2024-11-08,Net Banking
+39,Monitor,Home Office,South,David Clark,18,4115,74070,2025-02-25,Credit Card
+40,Laptop,Electronics,North,Laura Johnson,10,3767,37670,2024-05-19,UPI
+41,Laptop,Electronics,West,Jane Smith,4,1253,5012,2025-03-24,Debit Card
+42,Monitor,Electronics,West,David Clark,12,3938,47256,2024-08-15,Net Banking
+43,Headphones,Electronics,South,Michael Wilson,5,1497,7485,2024-12-31,UPI
+44,Monitor,Home Office,South,Jane Smith,7,3064,21448,2024-06-11,UPI
+45,Smartphone,Gadgets,East,Emily Davis,18,1260,22680,2024-12-18,Credit Card
+46,Laptop,Home Office,North,Laura Johnson,13,3835,49855,2024-06-09,Debit Card
+47,Smartwatch,Home Office,North,Alice White,17,4703,79951,2024-06-23,Net Banking
+48,Monitor,Gadgets,South,David Clark,4,2722,10888,2025-01-20,Credit Card
+49,Laptop,Gadgets,West,David Clark,8,4794,38352,2024-07-17,UPI
+50,Headphones,Home Office,East,Alice White,14,874,12236,2025-04-29,Cash on Delivery
+51,Monitor,Home Office,South,Emily Davis,8,159,1272,2024-08-28,UPI
+52,Printer,Gadgets,South,Emily Davis,8,4453,35624,2024-12-25,Credit Card
+53,Printer,Home Office,West,Emily Davis,16,1057,16912,2024-07-25,Debit Card
+54,Tablet,Electronics,North,Robert Brown,9,1386,12474,2024-07-28,Cash on Delivery
+55,Headphones,Gadgets,South,Emily Davis,18,2899,52182,2024-11-21,PayPal
+56,Tablet,Home Office,South,Laura Johnson,3,2123,6369,2025-02-21,Cash on Delivery
+57,Monitor,Home Office,West,David Clark,20,3646,72920,2025-03-20,PayPal
+58,Smartwatch,Accessories,East,Alice White,9,670,6030,2025-01-22,Credit Card
+59,Camera,Home Office,North,Alice White,7,1866,13062,2024-08-08,UPI
+60,Tablet,Home Office,North,Robert Brown,2,984,1968,2025-04-27,UPI
+61,Tablet,Home Office,West,Emily Davis,19,4863,92397,2024-12-30,Debit Card
+62,Printer,Gadgets,North,Jane Smith,18,2153,38754,2025-04-18,Net Banking
+63,Tablet,Gadgets,East,Jane Smith,3,339,1017,2024-09-02,Net Banking
+64,Laptop,Accessories,North,Robert Brown,5,3925,19625,2024-09-29,Debit Card
+65,Monitor,Accessories,South,Robert Brown,11,4899,53889,2024-06-06,Debit Card
+66,Monitor,Gadgets,West,Laura Johnson,20,4731,94620,2024-07-05,UPI
+67,Camera,Accessories,North,Emily Davis,2,2479,4958,2025-04-27,Net Banking
+68,Smartwatch,Electronics,South,Michael Wilson,3,2969,8907,2024-06-19,PayPal
+69,Printer,Home Office,East,David Clark,6,1712,10272,2024-09-17,Cash on Delivery
+70,Headphones,Gadgets,East,John Doe,5,4175,20875,2025-03-23,Debit Card
+71,Laptop,Gadgets,South,John Doe,9,1542,13878,2025-04-27,Net Banking
+72,Printer,Gadgets,North,David Clark,1,2647,2647,2025-02-05,Net Banking
+73,Headphones,Gadgets,South,Laura Johnson,6,354,2124,2024-10-22,UPI
+74,Headphones,Gadgets,West,Jane Smith,8,4140,33120,2025-04-21,PayPal
+75,Headphones,Accessories,South,David Clark,8,4466,35728,2024-12-03,Debit Card
+76,Monitor,Home Office,West,Jane Smith,16,1399,22384,2024-12-06,Credit Card
+77,Laptop,Gadgets,West,David Clark,18,3055,54990,2024-11-30,Credit Card
+78,Smartwatch,Home Office,West,David Clark,11,4116,45276,2025-04-17,UPI
+79,Camera,Home Office,South,Alice White,15,4106,61590,2024-10-12,Net Banking
+80,Camera,Accessories,South,John Doe,8,2877,23016,2024-06-21,Net Banking
+81,Laptop,Home Office,North,David Clark,19,2884,54796,2024-06-26,Cash on Delivery
+82,Smartphone,Accessories,North,Alice White,16,2810,44960,2024-09-26,Debit Card
+83,Headphones,Electronics,North,Michael Wilson,11,3752,41272,2025-01-19,Credit Card
+84,Tablet,Home Office,West,Alice White,1,4732,4732,2024-12-26,Credit Card
+85,Laptop,Electronics,West,John Doe,13,1993,25909,2024-06-17,Net Banking
+86,Smartwatch,Electronics,West,Jane Smith,19,1324,25156,2024-11-23,Credit Card
+87,Smartwatch,Accessories,North,Alice White,9,281,2529,2024-10-28,PayPal
+88,Monitor,Home Office,West,Alice White,10,4119,41190,2024-07-19,Net Banking
+89,Printer,Home Office,West,Michael Wilson,8,4736,37888,2025-05-01,Debit Card
+90,Camera,Electronics,West,David Clark,11,3095,34045,2024-06-06,Debit Card
+91,Smartphone,Gadgets,West,Emily Davis,1,447,447,2025-04-02,UPI
+92,Camera,Gadgets,East,Michael Wilson,7,1395,9765,2025-05-02,UPI
+93,Camera,Electronics,South,Laura Johnson,11,3383,37213,2025-03-08,PayPal
+94,Tablet,Home Office,West,Emily Davis,16,1441,23056,2025-03-01,Cash on Delivery
+95,Headphones,Gadgets,South,Jane Smith,19,4880,92720,2024-06-24,Net Banking
+96,Smartphone,Gadgets,South,Emily Davis,12,913,10956,2025-01-07,Cash on Delivery
+97,Smartphone,Accessories,West,Robert Brown,8,4049,32392,2024-08-30,Cash on Delivery
+98,Tablet,Accessories,North,Jane Smith,10,1993,19930,2024-08-28,UPI
+99,Printer,Home Office,North,David Clark,6,3331,19986,2025-02-28,Credit Card
+100,Headphones,Accessories,South,David Clark,3,665,1995,2025-02-20,PayPal
+101,Smartwatch,Electronics,East,John Doe,17,3413,58021,2024-07-07,Debit Card
+102,Laptop,Gadgets,West,Robert Brown,17,749,12733,2025-04-23,Debit Card
+103,Tablet,Home Office,East,Michael Wilson,10,112,1120,2024-06-06,Cash on Delivery
+104,Monitor,Electronics,North,Jane Smith,1,1155,1155,2025-05-04,Credit Card
+105,Tablet,Gadgets,West,Laura Johnson,18,1172,21096,2025-01-08,UPI
+106,Tablet,Electronics,North,Emily Davis,10,1584,15840,2025-04-21,Credit Card
+107,Camera,Home Office,North,Michael Wilson,6,2920,17520,2024-06-09,UPI
+108,Tablet,Electronics,North,David Clark,13,1947,25311,2024-11-28,Debit Card
+109,Smartphone,Electronics,South,David Clark,18,3744,67392,2024-08-25,Net Banking
+110,Headphones,Gadgets,West,Alice White,2,4918,9836,2025-03-12,Credit Card
+111,Headphones,Electronics,East,Robert Brown,20,1299,25980,2024-06-21,Cash on Delivery
+112,Camera,Electronics,East,Michael Wilson,6,2626,15756,2025-01-01,Debit Card
+113,Monitor,Accessories,North,David Clark,17,3980,67660,2024-06-10,PayPal
+114,Monitor,Accessories,South,Robert Brown,7,305,2135,2024-05-16,Credit Card
+115,Printer,Electronics,West,David Clark,20,3684,73680,2024-11-16,Debit Card
+116,Smartphone,Home Office,South,Robert Brown,10,3251,32510,2024-10-06,PayPal
+117,Laptop,Electronics,East,Robert Brown,14,2995,41930,2024-08-23,Credit Card
+118,Headphones,Gadgets,North,John Doe,8,2233,17864,2025-05-13,Net Banking
+119,Camera,Gadgets,South,Laura Johnson,17,1321,22457,2024-09-24,Credit Card
+120,Laptop,Electronics,West,Emily Davis,5,1835,9175,2024-07-27,Cash on Delivery
+121,Headphones,Accessories,North,Michael Wilson,12,4020,48240,2024-07-04,UPI
+122,Laptop,Home Office,North,Michael Wilson,16,4325,69200,2024-08-25,UPI
+123,Tablet,Gadgets,West,David Clark,14,631,8834,2024-07-02,UPI
+124,Headphones,Accessories,North,Emily Davis,3,4491,13473,2024-12-23,Debit Card
+125,Monitor,Home Office,East,Alice White,7,1775,12425,2024-12-09,PayPal
+126,Smartwatch,Gadgets,East,Michael Wilson,9,4590,41310,2024-10-30,UPI
+127,Headphones,Gadgets,South,Michael Wilson,11,1861,20471,2024-07-28,Debit Card
+128,Printer,Electronics,East,Jane Smith,16,4907,78512,2024-06-21,Credit Card
+129,Smartphone,Home Office,North,Jane Smith,14,602,8428,2024-11-25,Credit Card
+130,Printer,Electronics,North,Michael Wilson,6,4197,25182,2024-10-06,PayPal
+131,Printer,Gadgets,North,Laura Johnson,1,1574,1574,2024-10-19,PayPal
+132,Printer,Gadgets,North,Jane Smith,7,3770,26390,2024-11-02,Net Banking
+133,Tablet,Home Office,East,Laura Johnson,9,1912,17208,2025-02-23,UPI
+134,Tablet,Home Office,North,David Clark,8,1648,13184,2024-10-05,Credit Card
+135,Smartphone,Accessories,West,Emily Davis,7,1759,12313,2025-02-05,Cash on Delivery
+136,Smartwatch,Electronics,West,Robert Brown,13,862,11206,2024-05-25,Credit Card
+137,Monitor,Electronics,South,Robert Brown,16,3761,60176,2024-07-13,UPI
+138,Tablet,Accessories,North,Emily Davis,13,3017,39221,2024-10-31,Net Banking
+139,Headphones,Home Office,South,David Clark,7,3945,27615,2024-06-16,UPI
+140,Camera,Gadgets,South,Robert Brown,17,3135,53295,2025-04-14,PayPal
+141,Laptop,Accessories,South,Michael Wilson,19,644,12236,2025-02-26,PayPal
+142,Camera,Accessories,West,Robert Brown,13,3428,44564,2024-09-16,Cash on Delivery
+143,Laptop,Gadgets,North,Laura Johnson,12,179,2148,2024-07-11,UPI
+144,Headphones,Home Office,South,Alice White,5,1819,9095,2024-10-10,Debit Card
+145,Headphones,Home Office,South,Jane Smith,16,2529,40464,2024-12-13,PayPal
+146,Tablet,Home Office,West,Emily Davis,18,1999,35982,2025-01-06,Net Banking
+147,Smartphone,Gadgets,North,John Doe,11,3377,37147,2024-10-19,UPI
+148,Printer,Home Office,West,David Clark,1,2751,2751,2024-06-11,Debit Card
+149,Headphones,Accessories,North,Emily Davis,5,4051,20255,2024-06-18,Debit Card
+150,Printer,Home Office,North,Emily Davis,9,146,1314,2024-08-25,Net Banking
+151,Smartphone,Accessories,North,Michael Wilson,13,2852,37076,2024-10-02,Cash on Delivery
+152,Laptop,Accessories,North,Robert Brown,17,2867,48739,2024-06-13,Net Banking
+153,Monitor,Home Office,East,Michael Wilson,10,4930,49300,2024-11-26,Debit Card
+154,Smartphone,Gadgets,West,Jane Smith,14,218,3052,2025-05-11,Credit Card
+155,Headphones,Home Office,East,Robert Brown,8,1035,8280,2024-09-04,Net Banking
+156,Headphones,Accessories,East,Robert Brown,14,2334,32676,2024-09-30,PayPal
+157,Camera,Accessories,North,Emily Davis,15,4399,65985,2025-01-19,Cash on Delivery
+158,Smartphone,Electronics,South,Jane Smith,6,4055,24330,2024-09-06,Credit Card
+159,Printer,Gadgets,East,Laura Johnson,15,177,2655,2025-02-21,Cash on Delivery
+160,Printer,Home Office,East,Emily Davis,1,277,277,2024-12-20,Net Banking
+161,Smartwatch,Home Office,West,Jane Smith,16,3590,57440,2024-09-25,PayPal
+162,Laptop,Electronics,North,John Doe,10,3518,35180,2024-12-26,PayPal
+163,Smartwatch,Accessories,East,Alice White,6,2455,14730,2024-12-20,Cash on Delivery
+164,Headphones,Electronics,South,David Clark,16,432,6912,2024-12-31,Cash on Delivery
+165,Camera,Electronics,East,Jane Smith,14,4898,68572,2025-05-09,Net Banking
+166,Monitor,Electronics,North,Robert Brown,9,2070,18630,2025-05-05,Cash on Delivery
+167,Monitor,Electronics,East,Jane Smith,9,4029,36261,2025-01-11,Debit Card
+168,Monitor,Gadgets,East,David Clark,10,716,7160,2024-09-11,Debit Card
+169,Smartphone,Electronics,West,Laura Johnson,9,4374,39366,2025-03-19,Net Banking
+170,Smartphone,Electronics,East,Alice White,7,3665,25655,2024-09-24,Cash on Delivery
+171,Smartwatch,Accessories,West,John Doe,4,4266,17064,2024-08-15,Cash on Delivery
+172,Smartwatch,Accessories,South,Emily Davis,3,2859,8577,2025-01-21,Debit Card
+173,Laptop,Accessories,West,David Clark,6,551,3306,2025-03-01,Debit Card
+174,Monitor,Gadgets,East,Laura Johnson,1,144,144,2024-07-01,Debit Card
+175,Tablet,Electronics,West,Alice White,9,1690,15210,2024-10-12,Cash on Delivery
+176,Camera,Electronics,West,Michael Wilson,5,1648,8240,2024-12-08,PayPal
+177,Camera,Home Office,West,Alice White,8,1774,14192,2024-10-10,Credit Card
+178,Monitor,Gadgets,South,Emily Davis,12,3553,42636,2024-10-24,Debit Card
+179,Monitor,Home Office,East,Michael Wilson,17,1668,28356,2024-11-18,PayPal
+180,Tablet,Electronics,South,Jane Smith,19,4575,86925,2024-10-27,Credit Card
+181,Smartphone,Electronics,East,Alice White,13,2174,28262,2025-04-01,PayPal
+182,Printer,Gadgets,West,David Clark,16,2617,41872,2024-08-01,Debit Card
+183,Smartwatch,Gadgets,North,Robert Brown,17,1883,32011,2024-06-25,Net Banking
+184,Printer,Electronics,North,Laura Johnson,15,274,4110,2025-03-07,Debit Card
+185,Smartwatch,Home Office,North,John Doe,8,2476,19808,2025-04-15,UPI
+186,Camera,Home Office,North,Michael Wilson,2,4690,9380,2025-04-25,Debit Card
+187,Camera,Home Office,East,Michael Wilson,14,3486,48804,2025-02-12,Credit Card
+188,Smartphone,Electronics,South,Emily Davis,3,390,1170,2025-04-01,Debit Card
+189,Smartphone,Electronics,North,Emily Davis,9,449,4041,2024-10-07,Debit Card
+190,Camera,Gadgets,East,Laura Johnson,20,4680,93600,2024-11-26,Cash on Delivery
+191,Laptop,Accessories,South,John Doe,13,1660,21580,2025-05-07,PayPal
+192,Headphones,Electronics,North,Robert Brown,8,3649,29192,2024-08-25,Cash on Delivery
+193,Laptop,Gadgets,South,Robert Brown,4,621,2484,2024-11-17,PayPal
+194,Printer,Accessories,West,Michael Wilson,6,1710,10260,2024-11-08,UPI
+195,Smartphone,Accessories,West,Robert Brown,14,4631,64834,2025-01-18,Debit Card
+196,Smartphone,Gadgets,North,John Doe,16,2247,35952,2024-09-16,UPI
+197,Smartphone,Accessories,North,David Clark,4,613,2452,2025-03-28,UPI
+198,Smartwatch,Home Office,West,Jane Smith,6,4308,25848,2025-05-04,Cash on Delivery
+199,Tablet,Electronics,South,Emily Davis,20,4163,83260,2024-08-27,Debit Card
+200,Camera,Home Office,North,Jane Smith,13,3060,39780,2025-05-02,Credit Card
