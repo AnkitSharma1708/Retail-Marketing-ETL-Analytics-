@@ -1,0 +1,50 @@
+
+Table users {
+  id integer [primary key]
+  username varchar(50)
+  role varchar(50)
+  age integer [check: `age > 0`]
+}
+
+Table posts {
+  id integer [primary key]
+  title varchar(50)
+  body text [note: 'Content of the post']
+  user_id integer
+  status varchar(50)
+}
+
+Ref: posts.user_id > users.id // many-to-one
+
+
+Table "retail_data" {
+	"transaction_id" integer
+	"customer_id" integer
+	"name" text
+	"email" text
+	"address" text
+	"city" text
+	"state" text
+	"zipcode" integer
+	"country" text
+	"age" integer
+	"gender" text
+	"income" text
+	"customer_segment" text
+	"date" text
+	"year" integer
+	"month" text
+	"time" text
+	"total_purchases" integer
+	"amount" float
+	"total_amount" float
+	"product_category" text
+	"product_brand" text
+	"product_type" text
+	"feedback" text
+	"shipping_method" text
+	"payment_method" text
+	"order_status" text
+	"ratings" integer
+	"products" text
+}
