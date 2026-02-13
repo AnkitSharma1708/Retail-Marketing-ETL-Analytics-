@@ -1,0 +1,38 @@
+"Identify the name of Users and Reatils with their respective transaction_id"
+SELECT U.name, R.name FROM retail_data AS R 
+RIGHT JOIN users AS U 
+ON R.transaction_id = U.transaction_id
+WHERE R.transaction_id > 100000;
+"Retriving the name in retail_data CSV by using Inner Join.."
+
+SELECT R.name FROM retail_data AS R
+INNER JOIN retail_data AS R1
+ON R.name = R1.name
+
+SELECT transaction_id, customer_id, name, email,
+address, state, country FROM retail_data
+ORDER BY name ASC, customer_id DESC;
+
+SELECT MAX(
+  CASE WHEN age > 18 THEN age ELSE 0 END 
+) AS max_age_number FROM retail_data
+
+SELECT MAX(
+  CASE WHEN age > 18 THEN age ELSE 0 END 
+)AS max_age_number, MIN(
+  CASE WHEN age > 18 THEN age ELSE 0 END
+) AS min_age_number FROM retail_data
+
+CREATE OR REPLACE FUNCTION check_age(p_age INT)
+RETURNS TEXT AS $$
+BEGIN
+    IF p_age >= 18 THEN
+        RETURN 'Valid';
+    ELSE
+        RETURN 'Not Valid';
+    END IF;
+END;
+$$ LANGUAGE plpgsql;
+
+SELECT transaction_id, name, address, check_age(age) age_status
+FROM retail_data;
