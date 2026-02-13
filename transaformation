@@ -1,0 +1,51 @@
+CREATE FUNCTION check_customer(customer_id integer)
+RETURNS TEXT
+LANGUAGE plpgsql AS 
+$$
+BEGIN 
+IF customer_id > 30000 THEN RETURN 'STATUS OK'; 
+ELSE RETURN 'STATUS PENDING';
+END IF;
+END;
+$$;
+
+SELECT name, transaction_id, 
+check_customer(customer_id) AS customer_verified FROM retail_data;
+
+CREATE FUNCTION check_zipcode(zipcode integer) RETURNS integer
+LANGUAGE plpgsql AS $$
+BEGIN IF zipcode % 2 THEN RETURN 'STATUS OK';
+ELSE RETURN 'STATUS PENDING';
+END IF;
+END;
+$$;
+
+SELECT name, country, check_zipcode(zipcode) AS verified_status 
+FROM retail_data
+
+CREATE FUNCTION CHECK_INCOME(income text) RETURNS TEXT
+LANGUAGE plpgsql
+$$
+BEGIN 
+IF customer_id > 30000 THEN RETURN 'HIGH INCOME';
+ELSE RETURN 'LOW INCOME';
+END IF;
+END;
+$$
+
+SELECT name, country, 
+CHECK_INCOME(income) AS verified_based_on_income 
+FROM retail_data;
+
+SELECT transaction_id, customer_id,
+RANK() OVER (ORDER BY income) 
+FROM retail_data;
+
+SELECT transaction_id, customer_id,
+DENSE_RANK() OVER (ORDER BY income) 
+FROM retail_data;
+
+
+
+
+
